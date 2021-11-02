@@ -11,6 +11,7 @@ public class Data : MonoBehaviour
     public bool DEBUG;
     public string newScene;
     public ContentData contentData;
+    public AudioSpectrum audioSpectrum;
 
     public static Data Instance
     {

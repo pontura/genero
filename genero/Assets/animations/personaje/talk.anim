@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: test_bocas
+  m_Name: talk
   serializedVersion: 6
   m_Legacy: 1
   m_Compressed: 0
@@ -446,6 +446,25 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_IsActive
     path: boca_f
+    classID: 1
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsActive
+    path: idle
     classID: 1
     script: {fileID: 0}
   m_PPtrCurves: []
@@ -907,6 +926,25 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_IsActive
     path: boca_f
+    classID: 1
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: Infinity
+        outSlope: Infinity
+        tangentMode: 103
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_IsActive
+    path: idle
     classID: 1
     script: {fileID: 0}
   m_EulerEditorCurves: []
