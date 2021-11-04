@@ -731,12 +731,8 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 182775825}
     - target: {fileID: 255695956, guid: e1336cc60ad943d41a7d97d5343a3a67, type: 3}
-      propertyPath: timeForVersion1
-      value: 115
-      objectReference: {fileID: 0}
-    - target: {fileID: 255695956, guid: e1336cc60ad943d41a7d97d5343a3a67, type: 3}
-      propertyPath: timeForVersion2
-      value: 75
+      propertyPath: versionID
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5223633371415528761, guid: e1336cc60ad943d41a7d97d5343a3a67, type: 3}
       propertyPath: m_RootOrder
