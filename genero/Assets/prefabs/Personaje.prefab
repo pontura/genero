@@ -537,8 +537,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: afe15be6c594f7d42b5b3e393dd475d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  timeForVersion1: 115
+  timeForVersion2: 75
   character_anim: {fileID: 5223633372877121108}
   mouth_anim: {fileID: 5223633371893424690}
+  minSensibilityValue: 0.025
+  versionID: 2
+  splash: {fileID: 0}
+  uiTexts: {fileID: 0}
 --- !u!1 &5223633371551274193
 GameObject:
   m_ObjectHideFlags: 0
