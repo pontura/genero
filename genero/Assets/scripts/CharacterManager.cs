@@ -10,6 +10,7 @@ public class CharacterManager : MonoBehaviour
     public Animation character_anim;
     public Animation mouth_anim;
     public float minSensibilityValue = .001f;
+    bool isOn;
     bool isTalking;
     AudioSpectrum audioSpectrum;
 
@@ -27,6 +28,7 @@ public class CharacterManager : MonoBehaviour
     }
     private void Init()
     {
+        isOn = true;
         StopAllCoroutines();
         StartCoroutine(TalkingC());
         Events.PlaySound("voices", "voices/version" + versionID, false);
@@ -49,6 +51,7 @@ public class CharacterManager : MonoBehaviour
     }
     public void Reset()
     {
+        isOn = false;
         StopAllCoroutines();
         splash.SetActive(true);
         uiTexts.SetActive(false);
@@ -69,7 +72,7 @@ public class CharacterManager : MonoBehaviour
     {
         if(Input.GetMouseButtonDown(0))
         {
-            if (!isTalking)
+            if (!isOn)
             {
                 Init();
             }
